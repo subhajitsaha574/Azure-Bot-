@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "steps": [
+    {
+      "id": "c209162cf966-bd2887e3b19826eb-cfe1",
+      "type": "statement",
+      "designer": {
+        "xLocation": 193,
+        "yLocation": 10,
+        "next": "b4e20f9d2591-4e4c4503ee5a7027-d9a9"
+      },
+      "text": "Hii\r\nThis is the Government of India's Corona Helpdesk to create awareness and help you and your family stay safe. \r\n\r\nFor any emergency 👇 \r\n📞 011-23978046  \r\n☎️ 1075\r\n✉️ ncov2019@gov.in\r\n\r\nFor the safety of self, society, and country, please download Aarogya Setu Mobile App and keep Bluetooth on!👉 https://www.mygov.in/aarogya-setu-app",
+      "stringId": "stringId_574d81c56582cc93"
+    },
+    {
+      "id": "8c9ce0f52293-bac30eb07b36dde7-c5c0",
+      "type": "statement",
+      "designer": {
+        "xLocation": 0,
+        "yLocation": 380
+      },
+      "text": "Your infection risk is low. We recommend that you stay at home to avoid any chance of exposure to the Novel Coronavirus.\r\n\r\nRetake the Self-Assessment Test if you develop symptoms or come in contact with a COVID-19 confirmed patient.\r\n\r\n\r\nDo visit\r\nhttps://www.mohfw.gov.in/\r\nfor more information",
+      "stringId": "stringId_733e35c719a82ab8"
+    },
+    {
+      "id": "b4e20f9d2591-4e4c4503ee5a7027-d9a9",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 200,
+        "yLocation": 72,
+        "next": "ed528d2ab0fd-7c04eb1b02e431fc-ef84"
+      },
+      "text": "Any you currently experiencing any of the following symptoms?\r\n\r\n- Fever\r\n- Cough\r\n- Chest congestion or runny nose\r\n- Sore throat\r\n- Body ache\r\n- Diffculty in Breathing",
+      "variable": "symptom1",
+      "stringId": "stringId_10300ca0bad58b68",
+      "targetStepId": "b97b1524108b-2ca1d58e9fd67449-b720"
+    },
+    {
+      "id": "ed528d2ab0fd-7c04eb1b02e431fc-ef84",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 100,
+        "yLocation": 140,
+        "next": "e844b5a288f0-cd7331db6771cfac-0fd4"
+      },
+      "text": "Do you have any of the following per-existing conditions?\r\n\r\n- Diabetes\r\n- Hypertension\r\n- Lung Disease",
+      "variable": "symptom2",
+      "stringId": "stringId_c6115e93984b2e08",
+      "targetStepId": "e844b5a288f0-cd7331db6771cfac-0fd4"
+    },
+    {
+      "id": "e844b5a288f0-cd7331db6771cfac-0fd4",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 33,
+        "yLocation": 227,
+        "next": "8c9ce0f52293-bac30eb07b36dde7-c5c0"
+      },
+      "text": "Have you traveled in past 14 days to any of the states below:\r\n\r\n- Andhra Pradesh\r\n- Arunachal Pradesh\t\r\n- Assam\t\r\n- Bihar\r\n- Chhattisgarh\r\n- Goa\t\r\n- Gujarat\t\r\n- Haryana\r\n- Himachal Pradesh\r\n- Jharkhand\r\n- Karnataka\r\n- Kerala\r\n- Madhya Pradesh\r\n- Maharashtra\r\n- Manipur\r\n- Meghalaya\r\n- Mizoram\r\n- Nagaland\r\n- Odisha\r\n- Punjab\r\n- Rajasthan\r\n- Sikkim\r\n- Tamil Nadu\r\n- Telangana\r\n- Tripura\r\n- Uttar Pradesh\r\n- Uttarakhand\r\n- Gairsain\r\n- West Bengal",
+      "variable": "Travel",
+      "stringId": "stringId_6a38762e02eb4936",
+      "targetStepId": "8c9ce0f52293-bac30eb07b36dde7-c5c0"
+    },
+    {
+      "id": "a4e7975195d5-107cada4b881ed4c-9d34",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 306,
+        "yLocation": 240,
+        "next": "5ba91724dea8-722667fadad05727-7482"
+      },
+      "text": "Have you traveled in past 14 days to any of the states below:\r\n\r\n- Andhra Pradesh\r\n- Arunachal Pradesh\t\r\n- Assam\t\r\n- Bihar\r\n- Chhattisgarh\r\n- Goa\t\r\n- Gujarat\t\r\n- Haryana\r\n- Himachal Pradesh\r\n- Jharkhand\r\n- Karnataka\r\n- Kerala\r\n- Madhya Pradesh\r\n- Maharashtra\r\n- Manipur\r\n- Meghalaya\r\n- Mizoram\r\n- Nagaland\r\n- Odisha\r\n- Punjab\r\n- Rajasthan\r\n- Sikkim\r\n- Tamil Nadu\r\n- Telangana\r\n- Tripura\r\n- Uttar Pradesh\r\n- Uttarakhand\r\n- Gairsain\r\n- West Bengal",
+      "variable": "Travel",
+      "stringId": "stringId_6a38762e02eb4936",
+      "targetStepId": "5ba91724dea8-722667fadad05727-7482"
+    },
+    {
+      "id": "b97b1524108b-2ca1d58e9fd67449-b720",
+      "type": "yesnoprompt",
+      "dataType": "boolean",
+      "designer": {
+        "xLocation": 271,
+        "yLocation": 128,
+        "next": "a4e7975195d5-107cada4b881ed4c-9d34"
+      },
+      "text": "Do you have any of the following per-existing conditions?\r\n\r\n- Diabetes\r\n- Hypertension\r\n- Lung Disease",
+      "variable": "symptom2",
+      "stringId": "stringId_c6115e93984b2e08",
+      "targetStepId": "a4e7975195d5-107cada4b881ed4c-9d34"
+    },
+    {
+      "id": "5ba91724dea8-722667fadad05727-7482",
+      "type": "statement",
+      "designer": {
+        "xLocation": 350,
+        "yLocation": 388
+      },
+      "text": "Your infection risk is high. We recommend that you contact with near hospital and check the condition of patient.\r\n\r\n\r\nDo visit\r\nhttps://www.mohfw.gov.in/\r\nfor more information",
+      "stringId": "stringId_733e35c719a82ab8"
+    }
+  ]
+}
